@@ -139,7 +139,6 @@ val CURSED_SEEDS    = register(Identifier(MOD_ID, "cursed_seeds"), CursedSeeds(s
 val MAGNET = register(Identifier(MOD_ID, "magnet"), Magnet.create(settingsWithTab().maxCount(1).rarity(Rarity.UNCOMMON)))
 
 val DIAMOND_RING = register(Identifier(MOD_ID, "diamond_ring"),  Item(settingsWithTab().maxCount(1).rarity(Rarity.UNCOMMON)))
-val ANGEL_RING = register(Identifier(MOD_ID, "angel_ring"), AbilityRing.create(settingsWithTab().maxCount(1).rarity(Rarity.EPIC), VanillaAbilities.ALLOW_FLYING))
 val MAGMA_RING = register(Identifier(MOD_ID, "magma_ring"), AbilityRing.create(settingsWithTab().maxCount(1).rarity(Rarity.RARE), INFINITE_FIRE_RESISTENCE))
 val WATER_RING = register(Identifier(MOD_ID, "water_ring"), AbilityRing.create(settingsWithTab().maxCount(1).rarity(Rarity.RARE), INFINITE_WATER_BREATHING))
 val LIGHT_RING   = register(Identifier(MOD_ID, "light_ring"),  LightRing(settingsWithTab().maxCount(1).rarity(Rarity.UNCOMMON)))
